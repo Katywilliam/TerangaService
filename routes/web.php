@@ -75,13 +75,25 @@ Route::get('/notifications', function () {
 Route::get('/admin', function () {
     return view('admin.dashboard');
 })->name('admin.dashboard');
-// Page Admin (protégée)
-Route::middleware(['auth'])->group(function () {
-    Route::get('/admin', function () {
-        // Vérifier que l'utilisateur est admin
-        if (Auth::user()->role !== 'admin') {
-            abort(403, 'Accès non autorisé');
-        }
-        return view('admin.dashboard');
-    })->name('admin.dashboard');
+// Page Admin
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+})->name('admin.dashboard');
+// Page Contact
+Route::get('/contact', function () {
+    return view('contact.index');
+})->name('contact');
+
+// Page Témoignages
+Route::get('/temoignages', function () {
+    return view('testimonials.index');
+})->name('testimonials');
+
+// Page Devenir prestataire
+Route::get('/prestataire/register', function () {
+    return view('auth.prestataire-register');
+})->name('prestataire.register');
+// Page 404 personnalisée
+Route::fallback(function () {
+    return view('errors.404');
 });

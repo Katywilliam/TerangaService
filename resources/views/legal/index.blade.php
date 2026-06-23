@@ -6,7 +6,7 @@
 <!-- Hero -->
 <div data-aos="fade-down" style="background: linear-gradient(135deg, #1B3A6B, #1B3A6B 90%); color: white; padding: 40px 20px; text-align: center;">
     <div style="max-width: 800px; margin: 0 auto;">
-        <h1 style="font-size: 32px; font-weight: bold; margin-bottom: 8px;">📜 Mentions légales</h1>
+        <h1 style="font-size: 32px; font-weight: bold; margin-bottom: 8px; color: #D1D5DB;">📜 Mentions légales</h1>
         <p style="font-size: 16px; color: #D1D5DB;">Teranga Service - Votre maison, nos solutions</p>
     </div>
 </div>
@@ -19,10 +19,10 @@
         <p style="color: #4B5563; line-height: 1.8; margin-bottom: 20px;">
             <strong>Nom :</strong> Teranga Service<br>
             <strong>Statut :</strong> Projet académique - Université Numérique Cheikh Hamidou Kane (UNCHK)<br>
-            <strong>Formation :</strong> Licence 3 — Informatique Décisionnelle et Algorithmique<br>
+            <strong>Formation :</strong> Licence 3 — Informatique Développement d'Applications<br>
             <strong>Année :</strong> 2025 – 2026<br>
             <strong>Chef de projet :</strong> Abdoulaye Barry<br>
-            <strong>Équipe :</strong> Coumba Séye, Marie Louise C. William, Thierno O. Iba Sall, Mariama Ba, Alioune Tounkara, Kenda Bailo Ba, Bassirou Ndiaye, Oumar Baldé<br>
+            <strong>Équipe :</strong> Coumba Séye, Oumar Baldé, Marie Louise C. William, Thierno O. Iba Sall, Alioune Tounkara, Kenda Bailo Ba, Bassirou Ndiaye, Mariama Ba<br>
             <strong>Email :</strong> ida@unchk.edu.sn<br>
             <strong>Adresse :</strong> Université Numérique Cheikh Hamidou Kane, Dakar, Sénégal
         </p>
