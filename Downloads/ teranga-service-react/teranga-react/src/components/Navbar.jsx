@@ -28,11 +28,12 @@ export default function Navbar() {
     return '/dashboard/client';
   };
 
-  const handleLogout = async () => {
-    await logout();
-    setDropdownOpen(false);
-    navigate('/');
-  };
+ const handleLogout = async () => {
+  setDropdownOpen(false);
+  setMobileOpen(false);
+  await logout();
+  window.location.href = '/';
+};
 
   return (
     <header className="bg-white sticky top-0 z-50 shadow-sm border-b border-gray-100">
